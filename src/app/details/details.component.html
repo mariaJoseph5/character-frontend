@@ -1,0 +1,19 @@
+<div><p>DETAILS</p></div>
+<div class="div-wrapper-class">
+  @for(item of itemsList;track item.id){
+  <div class="div-inner-class">
+    <div>
+      <p>
+        {{ item.firstName | capitalize }}&nbsp;{{ item.lastName | capitalize }}
+      </p>
+    </div>
+    <div appHighlight>
+      <p>{{ item.age }}</p>
+    </div>
+    <div>
+      <p>{{ item.amount | currency }}</p>
+    </div>
+  </div>
+  }
+</div>
+

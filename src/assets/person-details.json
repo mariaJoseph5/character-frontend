@@ -1,0 +1,40 @@
+{
+  "persons":[
+    {
+      "firstName":  "rachel",
+      "lastName": "green",
+      "age": 28,
+      "amount": 30134
+    },
+    {
+      "firstName": "ross",
+      "lastName": "geller",
+      "age": 30,
+      "amount": 736753
+    },
+    {
+      "firstName": "monica",
+      "lastName": "geller",
+      "age": 27,
+      "amount": 764738
+    },
+    {
+      "firstName": "chandler",
+      "lastName": "bing",
+      "age": 31,
+      "amount": 1000034
+    },
+    {
+      "firstName": "joey",
+      "lastName": "tribbiani",
+      "age": 32,
+      "amount": 23454
+    },
+    {
+      "firstName": "phoebe",
+      "lastName": "buffay",
+      "age": 29,
+      "amount": 54553
+    }
+  ]
+}

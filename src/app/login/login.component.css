@@ -1,0 +1,14 @@
+input {
+  border: 1px solid black;
+  flex-basis:30%;
+}
+.input-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+<div><h1>REGISTER</h1></div>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <div class="input-wrapper">
+    <label for="firstName">FIRST NAME</label>
+    <input type="text" id="firstName" formControlName="firstName" />
+  </div>
+  <div class="input-wrapper">
+    <label for="lastName">LAST NAME</label>
+    <input type="text" id="lastName" formControlName="lastName" />
+  </div>
+  <div formGroupName="address">
+    <div class="input-wrapper">
+      <label for="addressLine1">ADDRESS LINE 1</label>
+      <input type="text" id="addressLine1" formControlName="addressLine1" />
+    </div>
+    <div class="input-wrapper">
+      <label for="addressLine2">ADDRESS LINE 2</label>
+      <input type="text" id="addressLine2" formControlName="addressLine2" />
+    </div>
+  </div>
+  <div class="input-wrapper">
+    <label for="age">AGE</label>
+    <input type="input" id="age" formControlName="age" />
+  </div>
+  <div class="button-wrapper">
+    <button type="submit" [disabled]="registerForm.invalid">SUBMIT</button>
+  </div>
+</form>
+
